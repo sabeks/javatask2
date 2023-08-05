@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javataskk</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div class="input-field">
+        <label for="personal_number">your Number</label>
+        <input
+          type="text"
+          id="personal_number"
+          placeholder="personal number"
+          required
+        />
+        <span class="error-message" id="personal_number-error"></span>
+      </div>
+      <div class="input-field">
+        <label for="mobile_number">Enter mobile number</label>
+        <input
+          type="number"
+          id="mobile_number"
+          placeholder="mobile number"
+          required
+        />
+        <span class="error-message" id="mobile_number-error"></span>
+      </div>
+      <div class="input-field">
+        <label for="job-description">Enter job-description</label>
+        <input type="text" id="job-description" placeholder="job-description" />
+        <span class="error-message" id="job_description-error"></span>
+
+        <div class="input-field">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
